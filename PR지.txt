@@ -1,0 +1,171 @@
+PR수지
+
+
+목차
+1.0 목적 및 적용범위
+2.0 참고문서
+3.0 용어의 정의
+4.0 책임 및 권한
+5.0 절차
+6.0 업무흐름도
+7.0 첨부
+
+1.0 목적 및 적용범위
+
+1.1 목적
+본 지침의 목적은 Proposal 업무 수행 시 역할 및 업무 범위를 정의하여 정확한 입찰을 하는 데 있다.
+
+1.2 적용범위
+1) 본 지침은 IT 요구사항이 포함된 모든 Proposal에 적용된다.
+2) 타 사업부문과의 공동입찰 등 상황에 따라 적용 범위가 달라질 수 있다.
+
+2.0 참고문서
+
+
+3.0 용어의 정의
+3.1  IM       : Information Management
+3.2  MR       : Material Requisition
+3.3  M/H      : Man Hour
+3.4  SP-P&ID  : SmartPlant P&ID
+3.5  LE       : Proposal IM Lead Engineer
+3.6  Engineer : Proposal IM Engineer
+3.7  SES      : Smart Estimation System
+3.8  DDSR     : Drawing & Document Submit Requisition
+3.9  MCS      : Material Control System
+3.10 ITB      : Invitation to Bid
+3.11 SLD      : Single Line Diagram
+3.12 DOR      : Division of Responsibility
+3.13 BM       : Bill of Material
+3.14 H/Q      : Head Quarter
+3.15 JV       : Joint Venture
+
+4.0 책임 및 권한
+
+4.1 Proposal IM LE (Lead Engineer)
+LE는 Proposal 수행 시 IM과 관련된 모든 제반 업무를 총괄한다. 또한 Technical Proposal, Commercial Proposal에 대한 검토 업무를 수행하며 사업주 및 파트너 간 Meeting을 주관 또는 참가한다.
+
+4.2 Proposal IM Engineer
+Engineer는 LE의 업무 수행을 도와 입찰서 분석 및 Technical Proposal, Commercial Proposal을 준비한다. LE 부재 시 해당 업무를 대행한다.
+
+4.3 IT Infra Engineer
+IT Infra Engineer는 Proposal 수행 시 IT Infra 관련 요구사항을 검토하며, 본사 및 현장에 대한 IT Infra BM을 산출한 후 LE에게 송부한다.
+JV/Consortium Project의 경우 Common Office/System 비용을 추가로 산출한 후 LE에게 송부한다.
+
+4.4 공사 IT Administrator
+공사 IT Administrator는 공사용 도면 제작 M/H를 산출한 후 LE에게 송부한다.
+
+4.5 협업 포털 Administrator
+협업 포털 Administrator는 협업 포털 Admin & Support M/H를 산출한 후 LE에게 송부한다. 또한 Proposal용 협업 포털 개설 지원, 유지보수 및 기술지원을 담당한다.
+
+5.0 절차
+
+5.1 입찰 참여 결정 전
+1) 영업 지원 업무
+입찰 참여 결정 전 영업 부서의 요청에 따라 IM 관련 PQ(Pre-Qualification)를 작성 및 지원한다. 요청이 있을 경우 사업주 방문 출장, 프레젠테이션, 회의를 진행한다.
+
+5.2 입찰 참여 결정 후
+1) Project Code 부여
+입찰참여 심의회의에서 참여가 결정되면 영업 담당자의 요청에 따라 MDM에서 Project Code를 생성하여 등록한다.
+
+2) Proposal Kick-Off Meeting 참석
+LE는 Proposal Kick-Off Meeting에 참석하여 다음 내용을 확인하고 Engineer와 공유한다.
+ ① 입찰 일정 및 조직
+ ② ITB의 주요 내용
+ ③ 입찰 전략 및 경쟁사
+ ④ 물량 및 가격 산출 방향
+ ⑤ 기타 Proposal 특이사항
+ ⑥ 입찰 전산화 시스템 사용방법(MR 결재/Schedule Tool)
+ ⑦ Project 진행 시 IT 투자사항(시스템 적용 여부 등)
+
+3) Proposal IT System 교육
+LE는 입찰 주관 부서와 협의하여 Proposal Kick-Off Meeting 시 Proposal 수행에 적용해야 할 IT System에 대한 설명회를 실시한다.
+ ① 협업 포털(Proposal Portal): File 공유
+ ② Risk Profile System 교육
+ ③ DDSR의 사용
+
+4) ITB Check List 작성
+송부받은 ITB를 Full Review하여 다음 사항에 해당하는 부분을 요약한 Check List를 작성한 후, 입찰 주관 부서 및 IM 담당 부서 담당자에게 메일로 송부하고 ECM 문서 폴더에 보관한다.
+ ① Information Management 관련 요구사항
+ ② Intellectual Property Management 관련 요구사항
+ ③ Engineering Software 관련 요구사항
+ ④ Procurement & Material Management System 관련 요구사항
+ ⑤ Construction Management System 관련 요구사항 및 기타 Proposal 특이사항
+ ⑥ Turn-over, Pre-Commissioning, Commissioning System 관련 요구사항
+ ⑦ IT Infra 구축 관련 요구사항
+ ⑧ 기타 Operation System 관련 요구사항
+Addendum 및 Query 답변, Tender Bulletin 등 ITB 발행 이후 추가 사항에 대해서도 Review 후 해당 사항을 Check List에 기입한다.
+입찰 주관 부서에서 ITB 점검 회의를 개최하는 경우, 검토 특이사항, 유관부서 의견 및 협의 결과를 각 부문 책임자에게 보고한다.
+
+5) Technical Query 작성
+ITB Review 과정에서 발견된 불명확한 요구사항은 Query를 작성하여 사업주에게 Clarification을 요청한다.
+
+6) Technical Proposal 작성
+Technical Proposal은 사업 수행 부서의 작성 요청에 따라 DOR 중 해당 부분에 대해 Check List를 참고하여 작성한다. 기본 사항은 과거 Proposal 작성 문서를 참고한다.
+사업 수행 부서의 작성 요청이 없을 경우 작성하지 않아도 무방하다.
+
+7) IT Cost 작성
+Proposal Schedule과 Check List를 참고하여 IT Cost를 작성한 후 결재를 득하여 Issue한다. IT Cost에서 산출해야 할 사항 및 산출방법은 다음과 같다.
+ ① 협업 포털 Admin M/H
+   - 사업 수행 부서에서 전체 Project 기간을 송부받아 작성한다. 단가는 당해 협력사 용역계약 품의단가를 따른다.
+ ② 공사용 도면제작 M/H
+   - LE 또는 Engineer는 공사 IT Engineer에게 P&ID 장수, ISO 장수, SLD 장수 및 배관 Dia-inch를 송부하며, 공사 IT Engineer는 이를 근거로 공사용 도면제작 M/H를 산출하여 송부한다. 단가는 당해 협력사 용역계약 품의단가를 따른다.
+ ③ Engineering Tool
+   - ITB 요구사항이 있을 시 Proposal IT Cost 상세산출기준 2.0 Engineering Tool Cost 산출기준을 참조하여 산출한다.
+ ④ H/Q COMPANY 상주인원 및 본사 IT Infra BM
+   - LE 또는 Engineer는 입찰서에 명시된 COMPANY 상주 인원과 해당 IT Infra 요구사항을 IT Infra Engineer(IT 인프라 부서 담당자)에게 송부하며, IT Infra Engineer는 이를 근거로 본사 IT Infra BM을 산출하여 송부한다.
+ ⑤ COMPANY Site Office 및 자사 Site Office의 IT Infra BM
+   - LE 또는 Engineer는 입찰서에 명시된 Site Office의 COMPANY 인원, 해당 IT Infra 요구사항 및 공사 관리 부서에서 송부받은 Manpower Mobilization Schedule을 IT Infra Engineer에게 송부하며, IT Infra Engineer는 이를 근거로 현장 IT Infra BM을 산출하여 송부한다.
+ ⑥ 기타 특별 요구사항에 대한 Cost
+   - 사업 수행 부서와 협의 후 Vendor Quotation을 송부받아 IT Cost에 포함한다.
+ ⑦ IT Cost 결재 전, 사업 수행 부서와 Project 수주 시 설치될 시스템에 대해 사전 협의 후 품의를 진행한다.
+ ⑧ 상기 단가는 매 분기 갱신하여 최신 단가를 반영하며, 급격한 단가 변동이 있을 경우 지침 수정을 통해 반영한다.
+Proposal IT M/H 및 H/Q, Site Office의 IT Infra BM 상세 산출기준은 첨부 1과 같다.
+
+8) IT Cost 투자
+ ① 본사지원 일반경비
+   가) 출장기간(IT Manager, CIMS 및 Turn-over 관련)은 별도 명기 후 포함
+   나) Engineering Tool
+   다) IT Infra BM (H/Q COMPANY 상주 인원 및 자사 H/Q)
+ ② 본사 설계비
+   가) 협업 포털 Admin & Support M/H
+   나) 공사용 도면제작 지원 M/H
+   다) IT Infra BM (COMPANY Resident Office, 자사 Head Office)
+ ③ 공사 간접비
+   가) IT Infra BM (COMPANY Site Office, 자사 Site Office)
+
+9) 사업주 및 파트너사와 회의 진행
+사업주 및 파트너사와의 회의 요청이 있을 경우, Proposal IM Manager는 일정 및 비용 관련 협의 후 회의에 참석한다.
+
+6.0 업무흐름도
+
+6.1 Proposal IT 지원절차
+(구분: 입찰 주관 부서 / 설계 부서 / IM 담당 부서 / IT 인프라 부서)
+ 1. [입찰 주관 부서] Proposal LE 선정 요청 공문 → [IM 담당 부서] LE 선정 및 입찰 주관 부서 회신
+ 2. [입찰 주관 부서] Kick-Off Meeting 참석 요청 → [IM 담당 부서] Kick-Off Meeting 참석 및 Issue 사항 공유
+ 3. [입찰 주관 부서] ITB Check List 작성 요청 → [IM 담당 부서] ITB Check List 송부 및 ITB 점검 회의 참석
+ 4. [입찰 주관 부서] Technical Document 작성 요청 → [IM 담당 부서] Technical Document 작성 및 입찰 주관 부서 회신
+ 5. [입찰 주관 부서] IT Cost 작성 요청 → [IM 담당 부서] IT Cost 산출자료 요청
+ 6. [설계 부서] IT Cost 산출자료 송부 / [IT 인프라 부서] IT Infra Cost 산출자료 송부
+ 7. [IM 담당 부서] IT Cost 산출 및 송부 → [입찰 주관 부서] IT Cost 접수
+
+7.0 첨부
+1) 첨부 1. Proposal IT Cost 상세산출기준
+2) 첨부 2. Proposal IT System Overview
+3) 첨부 3. IT Cost 산출 양식
+아래 [본문]을 사용해 새 Word 문서로 "Proposal IM 수행 지침"을 작성해 줘.
+
+[작성 규칙]
+- 내용은 [본문]을 그대로 사용하고, 문구를 바꾸거나 요약하거나 새로 추가하지 마.
+- 글꼴: 본문은 맑은 고딕 10pt, 줄간격 1.15, 단락 뒤 6pt.
+- 제목 "Proposal IM 수행 지침": 가운데 정렬, 18pt 굵게.
+- 문서번호·개정번호·개정일자 줄: 제목 바로 아래에 3열 표로 넣고, 가운데 정렬, 9pt.
+- 목차: Word 자동 목차(TOC) 필드로 넣고, 목차 뒤에는 페이지 나누기.
+- 1.0~7.0 대제목은 Heading 1, 1.1·4.1·5.1 같은 중제목은 Heading 2 스타일 적용.
+- 5.2의 1)~9) 항목 제목은 굵게 표시하고, ①~⑧과 가)~다) 하위 항목은 들여쓰기를 단계별로 다르게 적용.
+- 3.0 용어의 정의: "번호 / 약어 / 정의" 3열 표로 만들고, 머리글 행은 굵게 하고 회색 음영 적용.
+- 6.1 업무흐름도: "입찰 주관 부서 / 설계 부서 / IM 담당 부서 / IT 인프라 부서" 4열의 스윔레인 표로 만들어. 단계별로 한 행씩 쓰고, 각 활동을 해당 부서 열에 배치한 뒤 진행 방향은 "→"로 표시.
+- 바닥글: 왼쪽에 "I-CN-00479 Rev.5", 오른쪽에 "페이지 X / Y" 자동 페이지 번호.
+- 회사명이나 팀명은 넣지 마.
+
+[본문]
+(위 텍스트 버전 전체를 여기에 붙여넣기)
